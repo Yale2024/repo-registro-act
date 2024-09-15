@@ -1,8 +1,0 @@
-{
-    "workbench.colorTheme": "Default Light Modern",
-    "remote.SSH.remotePlatform": {
-        "inst-curso-2": "linux",
-        "inst-registro-act": "linux"
-    },
-    "editor.minimap.enabled": false
-}
