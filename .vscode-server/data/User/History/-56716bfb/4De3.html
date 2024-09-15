@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/styleRegister.css">
+    <script src="static/js/appRegister.js"></script>
+    <title>Web App</title>
+</head>
+<body></body>
+   
+    <form class="contact_form" action="/register_user" method="POST" align="right" >
+    <!-- <form method="POST"> -->
+        <div>
+            <ul>
+                <li>
+                    <h1>Registro Actividades</h1>
+                </li>
+                <li>
+                    <label for="id">Id :</label> 
+                    <input type="number"  size="30" name="id" id="Id" placeholder="Escribe ID" required /> <br>
+                </li>
+                <li>
+                    <label for="nombre">Nombre :</label> 
+                    <input type="text" size="30" name="nombre" id="nombre" placeholder="Nombre Funcionario" required /> <br>
+                </li>
+                <li>
+                    <label for="apellido">Apellido :</label> 
+                    <input type="text" size="30" name="apellido" id="apellido" placeholder="Apellido Funcionario" required /> <br>
+                </li>
+                <li>
+                    <label for="documento">Documento  :</label> 
+                    <input type="number" size="30" name="documento" id="documento" placeholder="Documento Funcionario" required /> <br>
+                </li>
+                <li>
+                    <label for="are">Area      :</label> 
+                    <input type ="text" size="30" name="area" id="area" placeholder="Area Operativa" required /> <br>
+                </li>
+                <li>
+                    <label for="fecha">Fecha     :</label> 
+                    <input type ="date" size="30" name="fecha" id="fecha" placeholder="AAAA-MM-DD" required /> <br>
+                </li>
+                <li>
+                    <label for="horai">hora inicio:</label> 
+                    <input type ="time" size="30" name="horai" id="horai" placeholder="hh:mm" required /> <br>
+                </li>
+                <li>
+                    <label for="horaf">hora fin  :</label> 
+                    <input type ="time" size="30" name="horaf" id="horaf" placeholder="hh:mm" required /> <br>
+                </li>
+                <li>
+                    <label for="mensaje">Descripcion   :</label> 
+                    <textarea name="descripcion" size="300" for="descripcion" placeholder="Describe tu actividad en menos de 300 carácteres" maxlength="300"></textarea> <br>
+                </li>
+                <li>
+                    <button>Register</button>
+                </li>
+            </ul>
+        </div> 
+        <!-- <button onclick="register_user()">Register</button> -->
+        <!-- <input type="submit" name="enviar" value="enviar datos"/> -->
+    </form>
+</body>
